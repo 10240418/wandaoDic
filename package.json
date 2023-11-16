@@ -1,0 +1,28 @@
+{
+  "name": "wandao",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@zanmato/vue3-treeselect": "^0.2.0",
+    "axios": "^1.6.0",
+    "element-plus": "^2.4.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5",
+    "vue-treeselect": "^1.0.7",
+    "vue3-treeselect": "^0.1.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "vite": "^4.4.5"
+  }
+}
