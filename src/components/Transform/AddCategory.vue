@@ -8,7 +8,7 @@
                 </div>
                 <div class="w-[300px] h-[34px] rounded border border-gray-200 mt-[0px] ml-[100px] px-[0px] py-[5px] left-[10px] flex flex-nowrap justify-between items-center focus:outline">
 
-                    <input  v-model="name" placeholder="输入名称" class=" ml-[5px] w-full h-full bg-transparent focus:outline-none"  required />
+                    <input  v-model="Name" placeholder="输入名称" class=" ml-[5px] w-full h-full bg-transparent focus:outline-none"  required />
                 </div>
                 <div class="flex items-center mt-[30px]">
                     <h2 class="ml-[100px]">父类别</h2>
