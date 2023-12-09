@@ -32,6 +32,7 @@
     </div>
     <div class="w-full flex justify-center item-center" >
         <router-view></router-view>
+
     </div>
 
 
@@ -40,6 +41,8 @@
 
 <script setup>
 import {ref} from "vue";
+import {useIsEmailCommitShowStore} from "../store/EmailCommit/index.js";
+
 
 
 

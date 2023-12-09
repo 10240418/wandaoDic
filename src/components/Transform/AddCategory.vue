@@ -1,8 +1,8 @@
 <template>
-    <div class="bg-gray-100 flex flex-col sm:py-12">
+    <div class=" flex flex-col sm:py-12">
         <div class="fixed top-0 left-0 right-0 bottom-0 z-50 flex items-center justify-center">
             <!-- 弹窗内容 -->
-            <div class="w-[600px] h-[400px] ml-[100px] bg-white shadow rounded-lg">
+            <div class="w-[700px] h-[400px] ml-[100px] bg-white shadow rounded-lg">
                 <div class="flex items-center mt-[70px] ml-[100px]">
                     <h1>名称</h1>
                 </div>

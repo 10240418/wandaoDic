@@ -61,3 +61,18 @@ export function addType(data){
   })
 
 }
+export function postConfirmation(data){
+  return request({
+    uri:'/api/commit/email/confirmation',
+    method:'post',
+    data:data
+  })
+}
+
+export function postDo_verify(data){
+  return request({
+    uri:'/api/commit/email/do_verify',
+    method:'post',
+    data:data
+  })
+}
